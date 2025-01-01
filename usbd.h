@@ -243,13 +243,25 @@ bool usbd_ctrl_request_handle_vendor_cb(usb_ctrl_request_t *req) __WEAK;
  */
 bool usbd_ctrl_request_get_descriptor_interface_cb(usb_ctrl_request_t *req) __WEAK;
 
-struct lol {
-    uint8_t a;
-}
-
+/**
+ * @brief USB device descriptor type.
+ */
 typedef struct {
-    uint8_t a;
-} lol_t;
+    uint8_t bLength;
+    uint8_t bDescriptorType;
+    uint16_t bcdUSB;
+    uint8_t bDeviceClass;
+    uint8_t bDeviceSubClass;
+    uint8_t bDeviceProtocol;
+    uint8_t bMaxPacketSize0;
+    uint16_t idVendor;
+    uint16_t idProduct;
+    uint16_t bcdDevice;
+    uint8_t iManufacturer;
+    uint8_t iProduct;
+    uint8_t iSerialNumber;
+    uint8_t bNumConfigurations;
+} usb_device_descriptor_t;
 
 /**
  * @}
