@@ -243,6 +243,14 @@ bool usbd_ctrl_request_handle_vendor_cb(usb_ctrl_request_t *req) __WEAK;
  */
 bool usbd_ctrl_request_get_descriptor_interface_cb(usb_ctrl_request_t *req) __WEAK;
 
+struct lol {
+    uint8_t a;
+}
+
+typedef struct {
+    uint8_t a;
+} lol_t;
+
 /**
  * @}
  */
