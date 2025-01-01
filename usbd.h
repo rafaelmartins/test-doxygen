@@ -263,6 +263,17 @@ typedef struct {
     uint8_t bNumConfigurations;
 } usb_device_descriptor_t;
 
+
+/**
+ * @brief lol
+ */
+enum {
+    a = 1,
+    b,
+    c,
+};
+
+
 /**
  * @}
  */
