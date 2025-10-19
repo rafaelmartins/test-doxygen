@@ -1,4 +1,6 @@
-<!-- website-hide --># test-doxygen<!-- /website-hide -->
+<!-- website-hide -->
+# test-doxygen
+<!-- /website-hide -->
 Lol
 
 <!-- website-hide -->
