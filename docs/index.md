@@ -2,4 +2,4 @@
 
 Lol
 
-![Image](./image.png)
+![Image](./opengraph.png)
