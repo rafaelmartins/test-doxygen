@@ -2,7 +2,7 @@
 
 Lol
 
-<!-- website-hide -->[Test](./test.md)<!-- /website-hide -->
+[Test](./test.md)
 [kkk](bola/foo.md)
 
 df
